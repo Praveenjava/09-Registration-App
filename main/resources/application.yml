@@ -1,0 +1,19 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver;
+    password: IES_DEV
+    url: jdbc:mysql://localhost/mydb
+    username: root
+  mail:
+    host: smtp.gmail.com
+    password: Praveen@324
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: 16695A0324@gmail.com
